@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница Турфирмы</title>
+    <link href="https://fonts.googleapis.com/css?family=Manrope:400,500,600&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8tFwwtSgdxIoMBrv34nzeW07ehopfs1w&callback=initMap"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="block-left">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="">
+                    </a>
+                </div>
+                <div class="search">
+                    <input type="search">
+                </div>
+            </div>
+            <div class="block-right">
+                <div class="icons">
+                    <a href="#">
+                        <div class="review">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="bell">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="heart">
+                        </div>
+                    </a>
+                    <button>Войти</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Киев</a></li>
+                    <li><a href="#">Отели</a></li>
+                    <li><a href="#">Развлечения</a></li>
+                    <li><a href="#">Рестораны</a></li>
+                    <li><a href="#">Авиабилеты</a></li>
+                    <li><a href="#">Покупки</a></li>
+                    <li><a href="#">Отпускные турпакеты</a></li>
+                    <li><a href="#">Круизы</a></li>
+                    <li><a href="#">Аренда автомобилей</a></li>
+                </ul>
+            </nav>
+            <section class="hotels">
+                <div class="hotel">
+                    <div class="hotel-img">
+                        <img src="img/hotel-1.jpg" alt="">
+                    </div>
+                    <div class="hotel-info">
+                        <h2><a href="#">Senator Maidan</a></h2>
+                        <span>3867₴</span>
+                        <p>
+                            Бесплатный Wi-Fi
+                        </p>
+                        <p>
+                            Обслуживание номеров
+                        </p>
+                        <p>
+                            Специальное предложение
+                        </p>
+                    </div>
+                    <div class="hotel-map" data-coords-lat="50.451141" data-coords-lng="30.519908"
+                        data-name='Отель "Senator"'>
+                        <button>Показать на карте</button>
+                    </div>
+                    <div class="map"></div>
+                </div>
+                <div class="hotel">
+                    <div class="hotel-img">
+                        <img src="img/hotel-2.jpg" alt="">
+                    </div>
+                    <div class="hotel-info">
+                        <h2><a href="#">Отель Ibis</a></h2>
+                        <span>3867₴</span>
+                        <p>
+                            Бесплатный Wi-Fi
+                        </p>
+                        <p>
+                            Обслуживание номеров
+                        </p>
+                        <p>
+                            Специальное предложение
+                        </p>
+                    </div>
+                    <div class="hotel-map" data-coords-lat="50.445407" data-coords-lng="30.498458"
+                        data-name='Отель "Ibis"'>
+                        <button>Показать на карте</button>
+                    </div>
+                    <div class="map"></div>
+                </div>
+                <div class="hotel">
+                    <div class="hotel-img">
+                        <img src="img/hotel-3.jpg" alt="">
+                    </div>
+                    <div class="hotel-info">
+                        <h2><a href="#">Дизайн-отель "11 Mirrors"</a></h2>
+                        <span>3867₴</span>
+                        <p>
+                            Бесплатный Wi-Fi
+                        </p>
+                        <p>
+                            Обслуживание номеров
+                        </p>
+                        <p>
+                            Специальное предложение
+                        </p>
+                    </div>
+                    <div class="hotel-map" data-coords-lat="50.446958" data-coords-lng="30.510224" data-name='Дизайн-отель "11 Mirrors"'>
+                        <button>Показать на карте</button>
+                    </div>
+                    <div class="map"></div>
+                </div>
+                <div class="hotel">
+                    <div class="hotel-img">
+                        <img src="img/hotel-4.jpg" alt="">
+                    </div>
+                    <div class="hotel-info">
+                        <h2><a href="#">Aloft Kiev</a></h2>
+                        <span>3867₴</span>
+                        <p>
+                            Бесплатный Wi-Fi
+                        </p>
+                        <p>
+                            Обслуживание номеров
+                        </p>
+                        <p>
+                            Специальное предложение
+                        </p>
+                    </div>
+                    <div class="hotel-map" data-coords-lat="50.438682" data-coords-lng="30.524579" data-name='Aloft Kiev'>
+                        <button>Показать на карте</button>
+                    </div>
+                    <div class="map"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <p>&copy;Project GoogleMaps by Alexandr Malyshev</p>
+        </div>
+    </footer>
+</body>
+
+</html>
